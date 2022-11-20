@@ -1,0 +1,15 @@
+type ItemInventory1 {
+  id: Int!    
+  name: String!
+  description: String
+}
+
+type ItemInventory2 {
+  id: Int!    
+  name: String!
+  description: String
+}
+type Query {
+  itemInventory1List: [ItemInventory1!]
+  itemInventory2List: [ItemInventory2!]
+}
